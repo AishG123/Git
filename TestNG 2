@@ -1,0 +1,13 @@
+ {
+	@Test (groups="Buy")
+	public void Tc4() {
+		System.out.println("Tc4 is executed");
+	}
+	@Test (groups="Stoploss")
+	public void Tc5() {
+		System.out.println("Tc5 is executed");
+	}
+	@Test (groups="Sell")
+	public void Tc6() {
+		Reporter.log("Tc6 is executed",true);
+	}
