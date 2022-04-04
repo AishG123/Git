@@ -1,0 +1,13 @@
+public class Demo1 {
+@Test (groups="login")
+public void Tc1() {
+	Reporter.log("Tc1 is executed",true);
+}
+@Test (groups="Buy")
+public void Tc2() {
+	System.out.println("Tc2 is executed");
+}
+@Test (groups="Sell")
+public void Tc3() {
+	System.out.println("Tc3 is executed");
+}
